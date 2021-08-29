@@ -65,15 +65,11 @@ fn main() {
         if word == &"w" || word == &"W" {
             // println!("test");
             tmp_i = -1;
-            tmp_j = 0;
         }else if word == &"a" || word == &"A" {
-            tmp_i = 0;
             tmp_j = -1;
         }else if word == &"s" || word == &"S" {
             tmp_i = 1;
-            tmp_j = 0;
         }else if word == &"d" || word == &"D" {
-            tmp_i = 0;
             tmp_j = 1;
         }
         let result = out_of_range_check(tmp_i, tmp_j, moved_blank,puzzle_board);
